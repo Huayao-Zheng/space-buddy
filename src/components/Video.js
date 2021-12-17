@@ -10,17 +10,18 @@ const Video = () => {
             <video autoPlay loop muted id="video">
                 <source src={spaceVideo} type="video/mp4" />
             </video>
+
             <div className="content">
                 <h1>Space Buddy</h1>
                 <p>World's first civilian space travel.'</p>
-            </div>
-            <div>
-                <Link to="/training" className="btn">
-                    Training
-                </Link>
-                <Link to="/training" className="btn">
-                    Launch
-                </Link>
+                <div>
+                    <Link to="/training" className="btn">
+                        Training
+                    </Link>
+                    <Link to="/contact" className="btn btn-light">
+                        Launch
+                    </Link>
+                </div>
             </div>
         </div>
     );
