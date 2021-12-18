@@ -1,0 +1,15 @@
+.training {
+    width: 100%;
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.training .left {
+    text-align: center;
+}
+
+.training .left p {
+    margin: 1.2rem 0;
+}

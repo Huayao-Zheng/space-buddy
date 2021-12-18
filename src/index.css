@@ -3,40 +3,43 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  margin: 0;
-  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  background: #000;
+    background: #000;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1,
+h2,
+h3,
+h4,
 a,
 p {
-  color: #fff;
+    color: #fff;
 }
 
 .btn {
-  padding: 12px 32px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  background: transparent;
-  border: 1px solid #fff;
-  cursor: pointer;
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
 }

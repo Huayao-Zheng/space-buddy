@@ -26,10 +26,7 @@ const Navbar = () => {
                     <Link to="/contact">Contact</Link>
                 </li>
             </ul>
-            <div
-                className="hamburger"
-                onClick={() => setIsMenuActive(!isMenuActive)}
-            >
+            <div className="hamburger" onClick={() => setIsMenuActive(!isMenuActive)}>
                 {isMenuActive ? (
                     <FaTimes size={20} style={{ color: '#fff' }} />
                 ) : (
