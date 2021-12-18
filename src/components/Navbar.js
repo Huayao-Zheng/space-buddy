@@ -7,8 +7,16 @@ import './Navbar.Styles.css';
 const Navbar = () => {
     const [isMenuActive, setIsMenuActive] = useState(false);
 
+    const [color, setColor] = useState(false);
+
+    const giveNavbarColorWhenScrollDown = () => {
+        window.scrollY >= 100 ? setColor(true) : setColor(false);
+    };
+
+    window.addEventListener('scroll', giveNavbarColorWhenScrollDown);
+
     return (
-        <header>
+        <header className={color && 'header-bg'}>
             <Link to="/">
                 <h1>Space Buddy</h1>
             </Link>
